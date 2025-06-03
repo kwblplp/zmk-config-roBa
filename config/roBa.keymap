@@ -65,7 +65,7 @@
             bindings = <
 &kp Q               &kp W              &kp E      &kp R     &kp T                                                                 &kp Y            &kp U  &lt 5 I          &kp O            &kp P
 &kp A               &kp S              &kp D      &kp F     &kp G      &kp LS(LG(S))                      &mt LCTRL SEMICOLON     &kp H            &kp J  &kp K            &kp L            &kp MINUS
-&mt LEFT_SHIFT Z    &kp X              &kp C      &kp V     &kp B      &lt 6 COLON                        &mt LEFT_ALT SEMICOLON  &kp N            &kp M  &mt LCTRL COMMA  &mt LALT PERIOD  &kp SLASH
+&mt LEFT_SHIFT Z    &kp X              &kp C      &kp V     &kp B      &lt 6 COLON                        &mt LEFT_ALT SEMICOLON  &kp N            &kp M  &mt LCTRL COMMA  &mt LALT PERIOD  &lt 5 SLASH
 &mt LEFT_SHIFT ESC  &mt LCTRL RS(TAB)  &lt 1 TAB  &kp LGUI  &mkp LCLK  &lt_to_layer_0 3 INT_MUHENKAN      &mt LEFT_SHIFT ENTER    &lt 2 BACKSPACE                                           &mt LEFT_SHIFT RIGHT_GUI
             >;
 
@@ -84,7 +84,7 @@
         NUM {
             bindings = <
 &kp NUMBER_1                &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4     &kp N5                                                &kp NUMBER_6      &kp N7             &kp N8          &kp N9           &kp NUMBER_0
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp MINUS  &kp LEFT_ARROW    &kp DOWN           &kp UP          &kp RIGHT_ARROW  &kp LA(MINUS)
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp MINUS  &kp LEFT_ARROW    &kp LEFT_ARROW     &kp DOWN        &kp UP_ARROW     &kp RIGHT_ARROW
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
 &trans                      &trans           &trans           &trans           &trans        &trans                       &trans     &trans                                                                &kp PIPE
             >;
