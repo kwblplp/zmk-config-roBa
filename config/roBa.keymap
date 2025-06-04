@@ -69,7 +69,7 @@
 &mt LEFT_SHIFT ESC  &mt LCTRL RS(TAB)  &lt 1 TAB  &kp LGUI  &mkp LCLK  &lt_to_layer_0 3 INT_MUHENKAN      &mt LEFT_SHIFT ENTER    &lt 2 BACKSPACE                                           &mt LEFT_SHIFT RIGHT_GUI
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         FUNCTION {
@@ -98,7 +98,7 @@
 &trans         &trans            &trans                &kp LC(LG(SPACE))      &mkp RCLK           &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LC(F12) LC(F11)>;
         };
 
         MOUSE {
