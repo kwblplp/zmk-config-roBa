@@ -114,10 +114,10 @@
 
         SCROLL {
             bindings = <
-&kp LC(Q)      &kp LG(W)         &kp LC(LS(TAB))       &kp LC(TAB)            &msc SCRL_UP                            &trans  &trans     &trans     &trans  &trans
-&kp LC(L)      &kp LC(UP_ARROW)  &kp LC(LEFT_ARROW)    &kp LC(RIGHT_ARROW)    &kp LC(DOWN_ARROW)  &trans      &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans
-&kp LS(LC(T))  &kp LG(R)         &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &msc SCRL_DOWN      &trans      &trans  &trans  &trans     &trans     &trans  &trans
-&trans         &trans            &trans                &kp LC(LG(SPACE))      &mkp RCLK           &trans      &trans  &trans                                &trans
+&kp LC(Q)      &kp LG(W)         &kp LC(LS(TAB))       &kp LC(TAB)            &msc SCRL_UP                            &kp LG(W)           &kp LC(LS(TAB))       &kp LC(TAB)            &kp LS(LG(T))        &kp LG(R)
+&kp LC(L)      &kp LC(UP_ARROW)  &kp LC(LEFT_ARROW)    &kp LC(RIGHT_ARROW)    &kp LC(DOWN_ARROW)  &trans      &trans  &kp LC(UP_ARROW)    &mkp LCLK             &mkp RCLK              &kp LC(DOWN_ARROW)   &kp LC(L)
+&kp LS(LC(T))  &kp LG(R)         &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &msc SCRL_DOWN      &trans      &trans  &kp LC(LEFT_ARROW)  &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &kp LC(RIGHT_ARROW)  &trans
+&trans         &trans            &trans                &kp LC(LG(SPACE))      &mkp RCLK           &trans      &trans  &trans                                                                                &trans
             >;
         };
 
