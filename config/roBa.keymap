@@ -63,10 +63,10 @@
 
         default_layer {
             bindings = <
-&mt LEFT_SHIFT Q    &kp W                 &kp E      &kp R     &kp T                                                          &kp Y            &kp U  &lt 5 I          &kp O            &kp P
-&kp A               &kp S                 &kp D      &kp F     &kp G      &kp LS(LG(S))               &mt LCTRL SEMICOLON     &kp H            &kp J  &kp K            &kp L            &kp MINUS
-&mt LEFT_SHIFT Z    &mt LEFT_SHIFT X      &kp C      &kp V     &kp B      &lt 6 COLON                 &mt LEFT_ALT SEMICOLON  &kp N            &kp M  &mt LCTRL COMMA  &mt LALT PERIOD  &lt 5 SLASH
-&mt C_AC_REPLY ESC  &mt LEFT_ALT RS(TAB)  &lt 1 TAB  &kp LGUI  &mkp LCLK  &lt_to_layer_0 5 SPACE      &mt LEFT_SHIFT ENTER    &lt 2 BACKSPACE                                           &mt LEFT_SHIFT RIGHT_GUI
+&mt LEFT_SHIFT Q    &kp W                 &kp E      &kp R     &kp T                                                 &kp Y            &kp U  &lt 5 I          &kp O            &kp P
+&kp A               &kp S                 &kp D      &kp F     &kp G      &kp LS(LG(S))      &mt LCTRL SEMICOLON     &kp H            &kp J  &kp K            &kp L            &kp MINUS
+&mt LEFT_SHIFT Z    &mt LEFT_SHIFT X      &kp C      &kp V     &kp B      &lt 6 COLON        &mt LEFT_ALT SEMICOLON  &kp N            &kp M  &mt LCTRL COMMA  &mt LALT PERIOD  &lt 5 SLASH
+&mt C_AC_REPLY ESC  &mt LEFT_ALT RS(TAB)  &lt 1 TAB  &kp LGUI  &mkp LCLK  &lt 5 SPACE        &mt LEFT_SHIFT ENTER    &lt 2 BACKSPACE                                           &mt LEFT_SHIFT RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
