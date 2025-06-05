@@ -119,6 +119,8 @@
 &kp LS(LC(T))  &kp LG(R)         &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &msc SCRL_DOWN      &trans      &trans  &kp LC(LEFT_ARROW)  &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &kp LC(RIGHT_ARROW)  &trans
 &trans         &trans            &trans                &kp LC(LG(SPACE))      &mkp RCLK           &trans      &trans  &trans                                                                                &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         layer_6 {
